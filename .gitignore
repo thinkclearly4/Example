@@ -1,17 +1,7 @@
-# Object files
-*.o
+#include <stdio.h>
 
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
+int main(){
+printf("Hello world!");
+getchar();
+return 0;
+}
